@@ -18,6 +18,6 @@ function increaseRankBy(n) {
 
 function deepestChild() {
   //pulls out the most deeply nested child element from div#grand-node
-  return document.getElementById("grand-node").getElementsByType("div")[3]
+  return document.getElementById("grand-node").getElementsByTagName("div")[3]
   
 }
